@@ -1,30 +1,28 @@
-# ⚽ World Cup Analysis
+# 🏆 FIFA World Cup Analysis Dashboard (1930–2022)
 
-Projeto de análise histórica das Copas do Mundo FIFA utilizando SQL, Git e GitHub.
+Projeto de análise histórica das Copas do Mundo FIFA utilizando **SQL, Power BI, Git e GitHub**.
 
----
+## 📌 Objetivo
 
-## 📖 Sobre o Projeto
+O objetivo deste projeto foi praticar conceitos de análise de dados por meio da exploração de informações históricas das Copas do Mundo FIFA entre 1930 e 2022.
 
-Este projeto foi desenvolvido com o objetivo de praticar conceitos de SQL através da análise de dados históricos das Copas do Mundo FIFA.
+Durante o desenvolvimento foram aplicadas etapas de:
 
-Durante o projeto foram realizadas etapas de:
-
-- Limpeza e tratamento de dados
-- Padronização de informações históricas
-- Análise exploratória
-- Geração de métricas e indicadores
-- Versionamento utilizando Git e GitHub
+* Limpeza e tratamento de dados
+* Padronização de informações históricas
+* Análise exploratória
+* Construção de métricas e indicadores
+* Desenvolvimento de dashboard no Power BI
+* Versionamento com Git e GitHub
 
 ---
 
 ## 🛠️ Ferramentas Utilizadas
 
-- MySQL
-- SQL
-- Git
-- GitHub
-- Power BI (em desenvolvimento)
+* SQL (MySQL)
+* Power BI
+* Git
+* GitHub
 
 ---
 
@@ -32,84 +30,74 @@ Durante o projeto foram realizadas etapas de:
 
 ```text
 world-cup-analysis
-
-├── dataset
-├── resultados
-├── sql
+│
+├── dataset/
+│   └── matches.csv
+│
+├── sql/
+│   ├── 01.matches_man.sql
+│   ├── 02.matches_man_clear_exploracao.sql
+│   ├── 03.top_selecoes_com_mais_vitorias.sql
+│   ├── 04.top_gols_selecoes.sql
+│   ├── 05.saldo_gols.sql
+│   ├── 06.maiores_confrontos.sql
+│   └── 07.media_gols_decada.sql
+│
+├── resultados/
+│   ├── aproveitamento_selecoes.csv
+│   ├── maiores_confrontos.csv
+│   ├── media_gols_copas.csv
+│   ├── media_gols_decadas.csv
+│   └── top_gols_selecoes.csv
+│
 └── README.md
 ```
 
 ---
 
-## 📊 Análises Realizadas
+## 📊 Dashboard
 
-### Seleções com mais vitórias
-
-Identificação das seleções com maior número de vitórias na história das Copas.
-
-### Aproveitamento histórico das seleções
-
-Cálculo do percentual de vitórias em relação ao total de partidas disputadas.
-
-### Seleções com mais gols marcados
-
-Ranking das equipes mais ofensivas da história do torneio.
-
-### Saldo de gols histórico
-
-Diferença entre gols marcados e sofridos por cada seleção.
-
-### Confrontos mais frequentes
-
-Identificação dos confrontos que mais se repetiram ao longo das Copas do Mundo.
-
-### Quantidade de gols por Copa
-
-Comparação do número total de gols em cada edição do torneio.
-
-### Média de gols por Copa
-
-Análise da eficiência ofensiva em cada edição.
-
-### Média de gols por década
-
-Avaliação da evolução do futebol ao longo das décadas.
+```markdown
+![Dashboard](dashboard.png)
+```
 
 ---
 
-## 🔎 Principais Insights
+## 🔍 Principais Análises
 
-- 🇧🇷 O Brasil lidera em gols marcados e saldo de gols na história das Copas.
-- 🇩🇪 A Alemanha aparece muito próxima do Brasil em número de gols marcados.
-- ⚽ A Copa de 1954 apresentou a maior média de gols por partida.
-- 📉 A década de 1990 apresentou uma das menores médias de gols da história.
-- 🤝 Brasil x Suécia e Argentina x Alemanha estão entre os confrontos mais frequentes das Copas.
+### ⚽ Top 10 Seleções com Mais Gols
+
+Identificação das seleções mais ofensivas da história das Copas do Mundo.
+
+### 📈 Aproveitamento Histórico das Seleções
+
+Comparação do percentual de vitórias entre as principais seleções participantes.
+
+### 🤝 Confrontos Mais Frequentes
+
+Levantamento dos confrontos que mais se repetiram ao longo da história do torneio.
+
+### 📉 Evolução da Média de Gols por Década
+
+Análise da evolução do comportamento ofensivo das Copas do Mundo ao longo do tempo.
 
 ---
 
-## 🧹 Tratamento de Dados
+## 💡 Principais Insights
 
-Durante a etapa de limpeza foram realizadas algumas padronizações:
-
-- Remoção dos registros da FIFA Women's World Cup.
-- Padronização de "West Germany" para "Germany".
-
-Essa etapa foi necessária para garantir consistência nas análises históricas.
-
----
-
-## 🚀 Próximos Passos
-
-- Construção do dashboard em Power BI.
-- Criação de visualizações interativas.
-- Publicação dos resultados finais.
+* Foram analisadas 22 edições da Copa do Mundo FIFA.
+* O dataset contém 959 partidas disputadas.
+* Foram registrados 2710 gols ao longo da história do torneio.
+* O Brasil lidera em número total de gols marcados.
+* O Brasil também apresenta o maior aproveitamento histórico entre as seleções analisadas.
+* Brasil x Suécia e Argentina x Alemanha figuram entre os confrontos mais recorrentes.
+* A média de gols por partida era superior a 4 gols nas primeiras décadas do torneio.
+* Houve uma redução significativa da média de gols após a década de 1950, seguida por uma leve recuperação nos anos mais recentes.
 
 ---
 
 ## 👨‍💻 Autor
 
-Adriano Freitas
+**Adriano Freitas**
 
-LinkedIn: www.linkedin.com/in/adriano-luis-de-freitas-90b88218b
-
-GitHub: https://github.com/adrianofreitas01
+Projeto desenvolvido com foco em aprendizado e construção de portfólio na área de Dados.
