@@ -28,7 +28,7 @@ Durante o desenvolvimento foram aplicadas etapas de:
 
 ## 📂 Estrutura do Projeto
 
-```text
+
 world-cup-analysis
 │
 ├── dataset/
@@ -51,15 +51,14 @@ world-cup-analysis
 │   └── top_gols_selecoes.csv
 │
 └── README.md
-```
+
 
 ---
 
 ## 📊 Dashboard
 
-```markdown
 ![Dashboard](dashboard.png)
-```
+
 
 ---
 
@@ -88,11 +87,11 @@ Análise da evolução do comportamento ofensivo das Copas do Mundo ao longo do 
 * Foram analisadas 22 edições da Copa do Mundo FIFA.
 * O dataset contém 959 partidas disputadas.
 * Foram registrados 2710 gols ao longo da história do torneio.
-* O Brasil lidera em número total de gols marcados.
-* O Brasil também apresenta o maior aproveitamento histórico entre as seleções analisadas.
-* Brasil x Suécia e Argentina x Alemanha figuram entre os confrontos mais recorrentes.
+* O Brasil lidera em número total de gols marcados com 237 gols.
+* O Brasil também apresenta o maior aproveitamento histórico entre as seleções analisadas com 69,30%.
+* Brasil x Suécia e Argentina x Alemanha figuram entre os confrontos mais recorrentes com 7 confrontos.
 * A média de gols por partida era superior a 4 gols nas primeiras décadas do torneio.
-* Houve uma redução significativa da média de gols após a década de 1950, seguida por uma leve recuperação nos anos mais recentes.
+* Houve uma redução significativa da média de gols após a década de 1950, seguida por uma leve recuperação nos anos mais recentes. Isso sugere que o futebol evoluiu com zagueiros mais capacitados, goleiros mais técnicos e sistema tático defensivo melhor desenvolvido.
 
 ---
 
